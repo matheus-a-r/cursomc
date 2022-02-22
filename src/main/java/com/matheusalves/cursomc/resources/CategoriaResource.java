@@ -12,7 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.matheusalves.cursomc.domain.Categoria;
 import com.matheusalves.cursomc.services.CategoriaService;
-
+/**
+ * 
+ * @author matal
+ *
+ *Controladores REST costumam ter metodos pequenos
+ */
 @RestController
 @RequestMapping(value="/categorias")
 public class CategoriaResource {
